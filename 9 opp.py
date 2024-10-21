@@ -5,5 +5,6 @@ class Dog:
 
 dog= Dog("kalu","street dog")
 dog2=Dog("kali", "Bull dog")
-print(f"name :{dog2.name},\nbreed:{dog.breed}")
+print(f"name :{dog.name},\nbreed:{dog.breed}")
+print(f"name :{dog.name},\nbreed:{dog.breed}")  
 
