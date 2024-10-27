@@ -27,7 +27,7 @@ class Elevator:
         while self.current_floor > target_floor:
             self.floor_down()
 
-        print(f"Elevator has arrived at floor {self.current_floor}")
+        print(f"Elevator has arrived at floor {self.current_floor}\n")
 
 
 elevator = Elevator(1, 10)
@@ -35,9 +35,9 @@ elevator = Elevator(1, 10)
 elevator.go_to_floor(4)
 elevator.go_to_floor(9)
 elevator.go_to_floor(1)
+print("----------------------------------------")
 
 
-print("")
 
 #2...........
 class Building:
@@ -48,7 +48,7 @@ class Building:
 
     def run_elevator(self, elevator_number, destination_floor):
         if 1 <= elevator_number <= len(self.elevators):
-            print(f"\nRunning elevator {elevator_number} to floor {destination_floor}")
+            print(f"Running elevator {elevator_number} to floor {destination_floor}")
             self.elevators[elevator_number - 1].go_to_floor(destination_floor)
         else:
             print("Invalid elevator number.")
