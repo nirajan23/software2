@@ -1,0 +1,168 @@
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+html {
+    font-family: Verdana, Arial, sans-serif;
+    color: #ecec74;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    float: left;
+}
+.logo{
+    height: 50px;
+    width:auto;
+
+}
+
+nav{
+    background-color: rgb(23, 40, 65);
+    padding: 0;
+    flex-wrap: wrap
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    background-color: rgba(23, 40, 65, 0.74);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0;
+
+}
+
+
+li {
+    margin: 0 1rem;
+    background-color: rgba(23, 40, 65, 0.74);
+}
+
+
+li a {
+    background-color: rgba(23, 40, 65, 0.74);
+    color: #ecec74;
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 3rem;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: rgb(43, 43, 107);
+}
+
+
+
+p{
+    text-align: justify;
+    padding-bottom: 1rem;
+}
+
+
+main {
+    background-color: #051a2c;
+    padding: 0 1rem;
+}
+
+main div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+article {
+    width: 100%;
+    padding: 1rem;
+    background: #172841;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+
+h2{
+    width: 100%;
+
+
+
+}
+
+img{
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+    height: auto;
+
+}
+
+
+
+figure{
+    margin: 0 1rem 1rem 0;
+    border-radius: 8px;
+
+}
+
+
+
+footer {
+    background-color:rgb(23, 40, 65);
+    padding: 1rem;
+
+}
+
+form {
+    background-color: #172841;
+    width: 100%;
+    display: flex;
+
+
+
+}
+
+footer from input[type="submit"]{
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+footer form input[type="submit"]:hover {
+    background: #ecec74;
+}
+
+
+a{
+    color: lightgoldenrodyellow;
+}
+
+
+@media screen and (min-width: 769px){
+    .container{
+      width:80%;
+    }
+    article{
+    width: calc(33.333% - 1rem)}
+}
+
+@media screen and (max-width: 768px){
+    article{
+        width: 100%;
+    }
+
+}
+
+
+
+
+
